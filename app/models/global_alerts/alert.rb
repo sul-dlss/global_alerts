@@ -1,3 +1,5 @@
+require 'http'
+
 module GlobalAlerts
   class Alert
     include ActiveModel::Model
