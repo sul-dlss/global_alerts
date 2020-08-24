@@ -1,0 +1,7 @@
+<% alert = GlobalAlerts::Alert.first %>
+
+<% if alert.present? %>
+  <div class="global-alert">
+    <%= alert.as_html %>
+  </div>
+<% end %>
