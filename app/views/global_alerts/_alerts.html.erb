@@ -1,4 +1,4 @@
-<% alert = GlobalAlerts::Alert.first %>
+<% alert = GlobalAlerts::Alert.active %>
 
 <% if alert.present? %>
   <div class="global-alert">

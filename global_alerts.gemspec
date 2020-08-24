@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.version     = GlobalAlerts::VERSION
   spec.authors     = ["Chris Beer"]
   spec.email       = ["cabeer@stanford.edu"]
-  spec.homepage    = "TODO"
+  spec.homepage    = "https://github.com/sul-dlss/global_alerts"
   spec.summary     = "SUL global alerts as a service"
   spec.license     = "Apache 2.0"
 
