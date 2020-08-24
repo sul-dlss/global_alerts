@@ -8,12 +8,12 @@ module GlobalAlerts
       return to_enum(:all) unless block_given?
 
       body = cache.fetch(CACHE_KEY) do
-        # HTTP.follow.get(GlobalAlerts::Engine.config.url).body.to_s
-        File.read(GlobalAlerts::Engine.root + 'sul.yaml')
+        HTTP.follow.get(GlobalAlerts::Engine.config.url).body.to_s
       end
 
       data = YAML.safe_load(body)
-      data&.each do |yaml|
+
+      data.dig('alerts')&.each do |yaml|
         yield new(yaml)
       end
     rescue => e
