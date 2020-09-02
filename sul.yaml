@@ -1,4 +1,9 @@
 alerts:
+  - from: 2020-09-02T00:00:00Z
+    html: >
+      <b>AIR QUALITY ALERT</b><br/>
+      All libraries are CLOSED due to poor air quality. Online services are available. <br/>
+      For updates visit <a href="https://library.stanford.edu/alerts">library.stanford.edu/alerts</a>.
   - html: >
       <b>RESEARCH RESTART</b><br/>
       The Libraries are resuming limited in-person research activities <a href="https://mylibrary.stanford.edu">by appointment only</a> as part of the University's Research Restart Plan.<br/>
