@@ -1,1 +1,6 @@
-alerts: []
+alerts:
+  - to: '2020-10-02T00:00:00-08:00' 
+    html: >		
+       <b>AIR QUALITY ALERT</b><br/>		
+       All libraries are CLOSED due to poor air quality. Online services are available. <br/>		
+       For updates visit <a href="https://library.stanford.edu/alerts">library.stanford.edu/alerts</a>.
