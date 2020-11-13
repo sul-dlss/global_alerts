@@ -49,7 +49,16 @@ module GlobalAlerts
       return false if for_application == application_name
 
       return true if from.nil? && to.nil?
-      ((from.presence && Time.zone.parse(from))...(to.presence && Time.zone.parse(to))).cover?(time)
+
+      range.cover?(time)
+    end
+
+    def range
+      start_of_range = from.presence && Time.zone.parse(from)
+      start_of_range ||= Time.at(0) unless RUBY_VERSION > '2.7'
+
+      end_of_range = to.presence && Time.zone.parse(to)
+      start_of_range...end_of_range
     end
 
     def as_html
