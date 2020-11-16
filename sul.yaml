@@ -1,3 +1,3 @@
 alerts:
-  - to: '2020-11-15T12:00:00-07:00'
+  - to: '2020-11-29T12:00:00-07:00'
     html: The Stanford Libraries website and associated services, including SearchWorks, will be <strong>down from 10 PM Saturday, 11/28 through the morning of Sunday, 11/29</strong> to accommodate UIT Data Center outages. <a href="https://library.stanford.edu/node/172144">More information is available</a>.
