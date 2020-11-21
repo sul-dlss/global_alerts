@@ -1,6 +1,6 @@
 alerts:
-  - from: '2020-11-23T12:00:00-00:00' 
-    to: '2020-12-06T12:00:00-12:00'
+  - from: '2020-11-23T00:00:00-07:00' 
+    to: '2020-12-07T00:00:00-07:00'
     application_name: 'MyLibrary'
     html: Appointments are no longer required at Green, East Asia, Business and Miller libraries. <a href="https://library.stanford.edu/status">Learn more about the current status of library services.</a>
   - to: '2020-11-29T12:00:00-07:00'
