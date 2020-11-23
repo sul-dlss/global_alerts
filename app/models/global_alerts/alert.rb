@@ -46,7 +46,7 @@ module GlobalAlerts
     delegate :present?, to: :html
 
     def active?(time: Time.zone.now, for_application: nil)
-      return false if for_application == application_name
+      return false if for_application != application_name
 
       return true if from.nil? && to.nil?
 
