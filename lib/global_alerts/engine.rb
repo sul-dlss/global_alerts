@@ -4,7 +4,7 @@ module GlobalAlerts
 
     config.cache = nil #defaults to Rails.cache
     config.application_name = nil
-    config.url = 'https://github.com/sul-dlss/global-alerts/raw/main/sul.yaml'
+    config.url = 'https://github.com/sul-dlss/global-alerts/raw/test/sul.yaml'
 
     initializer('global_alerts_default') do |app|
       config.application_name ||= app.class.parent_name.underscore
