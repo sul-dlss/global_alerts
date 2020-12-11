@@ -1,6 +1,9 @@
 alerts:
-  - from: '2020-11-23T00:00:00-07:00' 
-    to: '2020-12-07T00:00:00-07:00'
+  - to: '2020-12-14T12:00:00-07:00'
     application_name: 'MyLibrary'
-    html: Appointments are no longer required at Green, East Asia, Business and Miller libraries. <a href="https://library.stanford.edu/status">Learn more about the current status of library services.</a>
+    html: My Library Account will be unavailable Monday, December 14, 2020 between 4am and 12pm for system maintenance.
+  - from: '2020-12-14T04:00:00-07:00'
+    to: '2020-12-14T12:00:00-07:00'
+    application_name: 'SearchWorks'
+    html: My Account will be unavailable Monday, December 14, 2020 between 4am and 12pm for system maintenance.
  
