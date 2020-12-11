@@ -6,4 +6,5 @@ alerts:
     to: '2020-12-14T12:00:00-07:00'
     application_name: 'SearchWorks'
     html: My Account will be unavailable Monday, December 14, 2020 between 4am and 12pm for system maintenance.
- 
+  - to: '2021-01-04T09:00:00-07:00'
+    html: The Stanford Libraries will be operating on a reduced schedule during the Stanford Winter Closure period (December 14, 2020 - January 1, 2021). More information about <a href="https://library-hours.stanford.edu/">hours</a> and <a href="https://library.stanford.edu/node/172133">affected services</a>
