@@ -7,7 +7,7 @@ module GlobalAlerts
     config.url = 'https://github.com/sul-dlss/global-alerts/raw/main/sul.yaml'
 
     initializer('global_alerts_default') do |app|
-      config.application_name ||= app.class.parent_name.underscore
+      config.application_name ||= app.class.module_parent_name.underscore
     end
   end
 end
