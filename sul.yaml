@@ -1,3 +1,1 @@
-alerts:
-  - application_name: 'MyLibrary'
-    html: Appointments are no longer required at Green, East Asia, Business and Miller libraries. <a href="https://library.stanford.edu/status">Learn more about the current status of library services.</a>
+alerts: []
