@@ -1,13 +1,1 @@
-alerts:
-  - from: '2021-12-16T06:00:00-07:00'
-    to: '2022-01-02T22:00:00-07:00'
-    application_name: 'MyLibrary'
-    html: The Stanford Libraries will be operating on a reduced schedule during the Stanford Winter Closure period (December 18, 2021 - January 2, 2022). More information about <a href="https://library-hours.stanford.edu/">hours</a>
-  - from: '2021-12-16T06:00:00-07:00'
-    to: '2022-01-02T22:00:00-07:00'
-    application_name: 'SearchWorks'
-    html: The Stanford Libraries will be operating on a reduced schedule during the Stanford Winter Closure period (December 18, 2021 - January 2, 2022). More information about <a href="https://library-hours.stanford.edu/">hours</a>
-  - from: '2021-12-16T06:00:00-07:00'
-    to: '2022-01-02T22:00:00-07:00'
-    application_name: 'sul_bento_app'
-    html: The Stanford Libraries will be operating on a reduced schedule during the Stanford Winter Closure period (December 18, 2021 - January 2, 2022). More information about <a href="https://library-hours.stanford.edu/">hours</a>
+alerts: []
