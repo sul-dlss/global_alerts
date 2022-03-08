@@ -1,7 +1,10 @@
 # Configure Rails Environment
 ENV["RAILS_ENV"] = "test"
 
-require_relative "../test/dummy/config/environment"
+require 'combustion'
+Combustion.path = 'test/dummy'
+Combustion.initialize! :all
+
 ActiveRecord::Migrator.migrations_paths = [File.expand_path("../test/dummy/db/migrate", __dir__)]
 ActiveRecord::Migrator.migrations_paths << File.expand_path('../db/migrate', __dir__)
 require "rails/test_help"
