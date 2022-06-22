@@ -1,6 +1,8 @@
 # GlobalAlerts
-A gem for managing user-facing alerts across the portfolio. 
-⚠️[See current alerts](https://github.com/sul-dlss/global_alerts/blob/main/sul.yaml)
+A gem for managing user-facing alerts across the portfolio.
+
+* ⚠️[See current alerts](https://github.com/sul-dlss/global_alerts/blob/main/sul.yaml)
+* [Documentation for SUL OEG](https://docs.google.com/document/d/1J3V6lHKdYXynr1gNYgbQtuTeNPCHy64osxiO1-cR62g/edit#heading=h.jxru3xp3fpto)
 
 ## Usage
 
@@ -58,7 +60,7 @@ alerts:
 #### `application_name`
 ```
 alerts:
-   - application_name: 'MyLibrary
+   - application_name: 'MyLibrary'
      html: This message will appear on MyLibrary until manually removed.
    - html: This alert will appear on all other applications with GLOBAL_ALERTS enabled
 ```
