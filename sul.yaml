@@ -1,3 +1,1 @@
-alerts:
-  - to: '2022-06-24T21:00:00-07:00'
-    html: 'Green Library and the East Asia Library will reopen Friday, June 24, 2022. Most other campus libraries are without power and will remain closed. Please confirm <a href="https://library-hours.stanford.edu/">hours</a> prior to your visit.'
+alerts: []
