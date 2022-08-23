@@ -30,3 +30,11 @@ jobs:
       run: bundle exec rake
       env:
         RAILS_VERSION: ${{ matrix.rails_version }}
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: yaml-lint
+      uses: ibiqlik/action-yamllint@v3
+      with:
+        file_or_dir: sul.yaml
