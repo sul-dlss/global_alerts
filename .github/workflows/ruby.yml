@@ -38,3 +38,8 @@ jobs:
       uses: ibiqlik/action-yamllint@v3
       with:
         file_or_dir: sul.yaml
+        config_data: |
+          extends: default
+          rules:
+            line-length:
+              max: 120
