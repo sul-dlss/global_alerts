@@ -1,9 +1,7 @@
 ---
 alerts:
   - from: '2023-01-03T15:00:00-07:00'
-    to: '2023-01-05T07:00:00-07:00'
+    to: '2023-01-06T00:00:00-07:00'
     html: >
-      ALERT: <a href="https://emergency.stanford.edu/">Extreme weather</a> will cause interruptions
-      to library operations on Wednesday, January 4. Many campus libraries will be closed.
-      Please <a href="https://library-hours.stanford.edu/">check hours</a>.
-      Green Library will be open with limited hours, however Special Collections will be closed.
+      ALERT: Due to the threat of <a href="https://emergency.stanford.edu/">weather-related disruptions</a>,
+      many Stanford Libraries locations are closed or have reduced operating hours. Please <a href="https://library-hours.stanford.edu/">check hours</a> before visiting.
