@@ -1,6 +1,6 @@
 ---
 alerts:
-  - from: '2023-01-03T22:00:00-07:00'
+  - from: '2023-01-03T15:00:00-07:00'
     to: '2023-01-05T07:00:00-07:00'
     html: >
       ALERT: <a href="https://emergency.stanford.edu/">Extreme weather</a> will cause interruptions
