@@ -1,23 +1,9 @@
 ---
 alerts:
-  - from: '2022-12-19T06:00:00-07:00'
-    to: '2023-01-03T22:00:00-07:00'
-    application_name: 'MyLibrary'
+  - from: '2023-01-03T22:00:00-07:00'
+    to: '2023-01-05T07:00:00-07:00'
     html: >
-      The Stanford Libraries will be operating on a reduced schedule during the Stanford Winter Closure
-      period (Wednesday, December 21, 2022 - Tuesday, January 3, 2023). More information about
-      <a href="https://library-hours.stanford.edu/">hours</a>
-  - from: '2022-12-19T06:00:00-07:00'
-    to: '2023-01-03T22:00:00-07:00'
-    application_name: 'SearchWorks'
-    html: >
-      The Stanford Libraries will be operating on a reduced schedule during the Stanford Winter Closure
-      period (Wednesday, December 21, 2022 - Tuesday, January 3, 2023). More information about
-      <a href="https://library-hours.stanford.edu/">hours</a>
-  - from: '2022-12-19T06:00:00-07:00'
-    to: '2023-01-03T22:00:00-07:00'
-    application_name: 'sul_bento_app'
-    html: >
-      The Stanford Libraries will be operating on a reduced schedule during the Stanford Winter Closure
-      period (Wednesday, December 21, 2022 - Tuesday, January 3, 2023). More information about
-      <a href="https://library-hours.stanford.edu/">hours</a>
+      ALERT: <a href="https://emergency.stanford.edu/">Extreme weather</a> will cause interruptions
+      to library operations on Wednesday, January 4. Many campus libraries will be closed.
+      Please <a href="https://library-hours.stanford.edu/">check hours</a>.
+      Green Library will be open with limited hours, however Special Collections will be closed.
