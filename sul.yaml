@@ -1,9 +1,53 @@
 ---
 alerts:
-  - from: '2023-03-21T15:00:00-07:00'
-    to: '2023-03-22T00:00:00-07:00'
+  - from: '2023-08-07T00:00:00-07:00'
+    to: '2023-08-19T00:00:00-07:00'
+    application_name: SearchWorks
     html: >
-      ALERT: Due to the threat of <a href="https://emergency.stanford.edu/">weather-related disruptions</a>,
-      many Stanford Libraries locations are closed or have reduced operating hours.
-      Please <a href="https://library-hours.stanford.edu/">check hours</a> before visiting.
-      <a href="https://library.stanford.edu/chat">Virtual reference</a> is available 10a-5p.
+      <p>Stanford Libraries will be undergoing a major system upgrade Saturday, August 19 through Sunday, August 27.</p>
+      <p>During the upgrade, libraries will be open <a href="https://library-hours.stanford.edu/">regular hours</a> and
+      eligible materials may be checked out. Item status and availability information may not be up to date. Requests
+      can be submitted, but materials may not be ready for use until after August 31. My Library Account will not be
+      available during the upgrade.
+      <a href="https://library.stanford.edu/news/major-system-upgrade-august-19-27">More information</a></p>
+  - from: '2023-08-07T00:00:00-07:00'
+    to: '2023-08-19T00:00:00-07:00'
+    application_name: MyLibrary
+    html: >
+      <p>A major system upgrade will occur Saturday, August 19 through Sunday, August 27. My Library Account will not
+      be available during this period.</p>
+      <p>Libraries will be open <a href="https://library-hours.stanford.edu/">regular hours</a> and eligible materials
+      may be checked out. <a href="https://searchworks.stanford.edu/">SearchWorks</a> will be available, but item
+      status and availability information may not be up to date. Requests can be submitted, but materials may not be
+      ready for use until after August 31.
+      <a href="https://library.stanford.edu/news/major-system-upgrade-august-19-27">More information</a></p>
+  - from: '2023-08-07T00:00:00-07:00'
+    to: '2023-08-19T00:00:00-07:00'
+    application_name: sul_bento_app
+    html: >
+      <p>Stanford Libraries will be undergoing a major system upgrade Saturday, August 19 through Sunday, August 27.</p>
+      <p>During the upgrade, libraries will be open <a href="https://library-hours.stanford.edu/">regular hours</a> and
+      eligible materials may be checked out. <a href="https://searchworks.stanford.edu/">SearchWorks</a> will be
+      available, but item status and availability information may not be up to date. Requests can be submitted, but
+      materials may not be ready for use until after August 31. My Library Account will not be available during the
+      upgrade. <a href="https://library.stanford.edu/news/major-system-upgrade-august-19-27">More information</a></p>
+  - from: '2023-08-19T00:00:00-07:00'
+    to: '2023-08-28T00:00:00-07:00'
+    application_name: SearchWorks
+    html: >
+      <p>Stanford Libraries is undergoing a major system upgrade.</p>
+      <p>Libraries are open <a href="https://library-hours.stanford.edu/">regular hours</a> and
+      eligible materials may be checked out. Item status and availability information may not be up to date. Requests
+      can be submitted, but materials may not be ready for use until after August 31. My Library Account is
+      unavailable until August 28.
+      <a href="https://library.stanford.edu/news/major-system-upgrade-august-19-27">More information</a></p>
+  - from: '2023-08-19T00:00:00-07:00'
+    to: '2023-08-28T00:00:00-07:00'
+    application_name: sul_bento_app
+    html: >
+      <p>Stanford Libraries is undergoing a major system upgrade.</p>
+      <p>Libraries are open <a href="https://library-hours.stanford.edu/">regular hours</a> and
+      eligible materials may be checked out. <a href="https://searchworks.stanford.edu/">SearchWorks</a> is
+      available, but item status and availability information may not be up to date. Requests can be submitted, but
+      materials may not be ready for use until after August 31. My Library Account will not be available until
+      August 28. <a href="https://library.stanford.edu/news/major-system-upgrade-august-19-27">More information</a></p>
