@@ -6,6 +6,14 @@ module GlobalAlerts
 
     CACHE_KEY = 'global-alerts'
 
+    def self.global_alert_time
+      @global_alert_time || Time.zone.now
+    end
+
+    def self.global_alert_time=(time)
+      @global_alert_time = time
+    end
+
     def self.all
       return to_enum(:all) unless block_given?
 
@@ -25,7 +33,7 @@ module GlobalAlerts
       []
     end
 
-    def self.active(time = Time.zone.now)
+    def self.active(time = GlobalAlerts::Alert.global_alert_time)
       active_alert = all.find do |alert|
         alert.active?(time: time, for_application: GlobalAlerts::Engine.config.application_name)
       end
