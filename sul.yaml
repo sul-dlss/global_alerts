@@ -32,7 +32,6 @@ alerts:
       materials may not be ready for use until after August 31. My Library Account will not be available during the
       upgrade. <a href="https://library.stanford.edu/news/major-system-upgrade-august-19-27">More information</a></p>
   - from: '2023-08-19T00:00:00-07:00'
-    to: '2023-08-28T00:00:00-07:00'
     application_name: SearchWorks
     html: >
       <p><strong>Stanford Libraries is undergoing a major system upgrade.</strong></p>
@@ -42,7 +41,6 @@ alerts:
       unavailable until August 28.
       <a href="https://library.stanford.edu/news/major-system-upgrade-august-19-27">More information</a></p>
   - from: '2023-08-19T00:00:00-07:00'
-    to: '2023-08-28T00:00:00-07:00'
     application_name: sul_bento_app
     html: >
       <p><strong>Stanford Libraries is undergoing a major system upgrade.</strong></p>
