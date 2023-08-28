@@ -4,8 +4,9 @@ alerts:
     application_name: MyLibrary
     html: >
       <p><strong>Stanford Libraries completed a major system upgrade on August 27.</strong></p>
-      <p>Users with proxy, fee or courtesy accounts (and log in with a PIN) will be prompted to choose a new PIN
-      the first time they log in after the upgrade.</p>
+      <p>Users with proxy, fee or courtesy accounts (and log in with a PIN) need to update their PIN.
+      Select "Forgot your PIN? Don't have one yet?" below to update.
+      </p>
   - to: '2023-08-29T00:00:00-07:00'
     application_name: sul_bento_app
     html: >
