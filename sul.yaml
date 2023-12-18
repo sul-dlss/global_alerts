@@ -5,7 +5,7 @@ alerts:
     html: >
       Stanford Libraries will be operating on a reduced schedule during the university winter closure from Thursday, December 21, 2023 through
       Wednesday, January 3, 2024. Consult the <a href="https://library-hours.stanford.edu/">library hours page</a> before visiting.
-      For more informationabout services during this period, please visit the
+      For more information about services during this period, please visit the
       <a href="https://library.stanford.edu/news/stanford-libraries-intersession-and-winter-closure-hours-2023-2024">
       Libraries' intersession and winter closure page</a>.
   - to: '2024-01-04T00:00:00-08:00'
@@ -13,7 +13,7 @@ alerts:
     html: >
       Stanford Libraries will be operating on a reduced schedule during the university winter closure from Thursday, December 21, 2023 through
       Wednesday, January 3, 2024. Consult the <a href="https://library-hours.stanford.edu/">library hours page</a> before visiting.
-      For more informationabout services during this period, please visit the
+      For more information about services during this period, please visit the
       <a href="https://library.stanford.edu/news/stanford-libraries-intersession-and-winter-closure-hours-2023-2024">
       Libraries' intersession and winter closure page</a>.
   - to: '2024-01-04T00:00:00-08:00'
@@ -21,6 +21,6 @@ alerts:
     html: >
       Stanford Libraries will be operating on a reduced schedule during the university winter closure from Thursday, December 21, 2023 through
       Wednesday, January 3, 2024. Consult the <a href="https://library-hours.stanford.edu/">library hours page</a> before visiting.
-      For more informationabout services during this period, please visit the
+      For more information about services during this period, please visit the
       <a href="https://library.stanford.edu/news/stanford-libraries-intersession-and-winter-closure-hours-2023-2024">
       Libraries' intersession and winter closure page</a>.
