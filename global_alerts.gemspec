@@ -18,6 +18,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rails", ">= 6.1" , "< 7.2"
   spec.add_dependency "http"
 
-  spec.add_development_dependency "sqlite3"
+  spec.add_development_dependency "sqlite3", "~> 1.4"
   spec.add_development_dependency "combustion"
 end
