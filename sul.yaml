@@ -1,23 +1,29 @@
 ---
 alerts:
-  - to: '2024-06-24T00:00:00-07:00'
+  - from: '2024-12-23T00:00:00-08:00'
+    to: '2025-01-03T00:00:00-08:00'
     application_name: sul_bento_app
     html: >
-      <p>Stanford Libraries will be undergoing a system upgrade beginning Friday, June 21 at 5pm through Sunday, June 23.</p>
-      <p>During the upgrade, libraries will be open <a href="https://library-hours.stanford.edu/">regular hours</a> and eligible materials may be checked out.
-      <a href="https://searchworks.stanford.edu/">SearchWorks</a> will be available, but item status and availability information may not be up to date.
-      Requests cannot be submitted, and My Library Account will not be available during the upgrade.</p>
-  - to: '2024-06-24T00:00:00-07:00'
+      Stanford Libraries will be operating on a reduced schedule during the university winter closure from Monday, December 23, 2024 through
+      Friday, January 3, 2025. Consult the <a href="https://library-hours.stanford.edu/">library hours page</a> before visiting.
+      For more information about services during this period, please visit the
+      <a href="https://library.stanford.edu/news/stanford-libraries-intersession-and-winter-closure-hours-2024-2025">
+      Libraries' intersession and winter closure page</a>.
+  - from: '2024-12-23T00:00:00-08:00'
+    to: '2025-01-03T00:00:00-08:00'
     application_name: SearchWorks
     html: >
-      <p>Stanford Libraries will be undergoing a system upgrade beginning Friday, June 21 at 5pm through Sunday, June 23.</p>
-      <p>During the upgrade, libraries will be open <a href="https://library-hours.stanford.edu/">regular hours</a> and eligible materials may be checked out.
-      Item status and availability information may not be up to date.
-      Requests cannot be submitted and My Library Account will not be available during the upgrade.</p>
-  - to: '2024-06-24T00:00:00-07:00'
+      Stanford Libraries will be operating on a reduced schedule during the university winter closure from Monday, December 23, 2024 through
+      Friday, January 3, 2025. Consult the <a href="https://library-hours.stanford.edu/">library hours page</a> before visiting.
+      For more information about services during this period, please visit the
+      <a href="https://library.stanford.edu/news/stanford-libraries-intersession-and-winter-closure-hours-2024-2025">
+      Libraries' intersession and winter closure page</a>.
+  - from: '2024-12-23T00:00:00-08:00'
+    to: '2025-01-03T00:00:00-08:00'
     application_name: MyLibrary
     html: >
-      <p>A system upgrade will occur beginning Friday, June 21 at 5pm through Sunday, June 23. My Library Account will not be available during this period.</p>
-      <p>Libraries will be open <a href="https://library-hours.stanford.edu/">regular hours</a> and eligible materials may be checked out.
-      <a href="https://searchworks.stanford.edu/">SearchWorks</a> will be available, but item status and availability information may not be up to date.
-      Requests cannot be submitted during the upgrade.</p>
+      Stanford Libraries will be operating on a reduced schedule during the university winter closure from Monday, December 23, 2024 through
+      Friday, January 3, 2025. Consult the <a href="https://library-hours.stanford.edu/">library hours page</a> before visiting.
+      For more information about services during this period, please visit the
+      <a href="https://library.stanford.edu/news/stanford-libraries-intersession-and-winter-closure-hours-2024-2025">
+      Libraries' intersession and winter closure page</a>.
