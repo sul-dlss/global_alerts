@@ -1,28 +1,7 @@
 ---
 alerts:
-  - from: "2024-11-23T00:00:00-08:00"
-    to: "2024-11-24T08:00:00-08:00"
-    application_name: sul_bento_app
-    html: >
-      Please note that some Stanford Libraries' systems may be impacted by University IT maintenance from
-      Saturday, November 23 at 11pm through midmorning Sunday, November 24.
-  - from: "2024-11-23T00:00:00-08:00"
-    to: "2024-11-24T08:00:00-08:00"
-    application_name: SearchWorks
-    html: >
-      Please note that some Stanford Libraries' systems will be impacted by University IT maintenance from
-      Saturday, November 23 at 11pm through midmorning Sunday, November 24.
-      <br><br>
-      During maintenance, SearchWorks should be available. Item status and availability information may not
-      be up to date. Requests cannot be submitted, and My Library Account will not be available.
-  - from: "2024-11-23T00:00:00-08:00"
-    to: "2024-11-24T08:00:00-08:00"
-    application_name: MyLibrary
-    html: >
-      Stanford Libraries' systems will be impacted by University IT maintenance from
-      Saturday, November 23 at 11pm through midmorning Sunday, November 24. My Library Account will not be available during this period.
-  - from: "2024-12-23T00:00:00-08:00"
-    to: "2025-01-03T00:00:00-08:00"
+  - from: '2024-12-23T00:00:00-08:00'
+    to: '2025-01-03T00:00:00-08:00'
     application_name: sul_bento_app
     html: >
       Stanford Libraries will be operating on a reduced schedule during the university winter closure from Monday, December 23, 2024 through
@@ -30,8 +9,8 @@ alerts:
       For more information about services during this period, please visit the
       <a href="https://library.stanford.edu/news/stanford-libraries-intersession-and-winter-closure-hours-2024-2025">
       Libraries' intersession and winter closure page</a>.
-  - from: "2024-12-23T00:00:00-08:00"
-    to: "2025-01-03T00:00:00-08:00"
+  - from: '2024-12-23T00:00:00-08:00'
+    to: '2025-01-03T00:00:00-08:00'
     application_name: SearchWorks
     html: >
       Stanford Libraries will be operating on a reduced schedule during the university winter closure from Monday, December 23, 2024 through
@@ -39,8 +18,8 @@ alerts:
       For more information about services during this period, please visit the
       <a href="https://library.stanford.edu/news/stanford-libraries-intersession-and-winter-closure-hours-2024-2025">
       Libraries' intersession and winter closure page</a>.
-  - from: "2024-12-23T00:00:00-08:00"
-    to: "2025-01-03T00:00:00-08:00"
+  - from: '2024-12-23T00:00:00-08:00'
+    to: '2025-01-03T00:00:00-08:00'
     application_name: MyLibrary
     html: >
       Stanford Libraries will be operating on a reduced schedule during the university winter closure from Monday, December 23, 2024 through
