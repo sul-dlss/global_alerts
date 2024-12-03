@@ -14,8 +14,6 @@ RDoc::Task.new(:rdoc) do |rdoc|
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
 
-load 'rails/tasks/statistics.rake'
-
 require 'bundler/gem_tasks'
 
 require 'rake/testtask'
