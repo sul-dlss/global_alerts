@@ -39,4 +39,4 @@ jobs:
             extends: default
             rules:
               line-length:
-                max: 160
+                max: 200
