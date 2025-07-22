@@ -49,7 +49,7 @@ module GlobalAlerts
       GlobalAlerts::Engine.config.cache || Rails.cache
     end
 
-    attr_accessor :html, :from, :to, :application_name
+    attr_accessor :id, :dismiss, :html, :from, :to, :application_name
 
     delegate :present?, to: :html
 
