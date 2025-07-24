@@ -28,3 +28,13 @@ alerts:
       Stanford Libraries will be operating on reduced hours from Saturday, December 13, 2025 through
       Sunday, January 4, 2026. For more information about services during this period, please visit
       the <a href="https://library.stanford.edu/news/stanford-university-libraries-intersession-and-winter-closure-hours">Libraries Intersession and Winter Closure page</a>.
+  - from: '2025-07-24T13:00:00-08:00'
+    to: '2025-08-01T00:00:00-08:00' 
+    id: 'searchworks4-release-message'
+    dismiss: 'permanent'
+    application_name: SearchWorks
+    html: >
+      <strong>SearchWorks has been updated with a new design and enhanced features.</strong>
+      <p class='mb-0'>You can now search within filters, cite or email records directly from search results,
+      view an enhanced Availability section, and more. Please 
+      <a href='/feedback' data-blacklight-modal='trigger'>share your feedback</a> to help us continue improving.</p>
