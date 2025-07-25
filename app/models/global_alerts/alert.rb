@@ -5,6 +5,7 @@ module GlobalAlerts
     include ActiveModel::Model
 
     CACHE_KEY = 'global-alerts'
+    ATTRIBUTES = %w[id dismiss html from to application_name].freeze
 
     def self.global_alert_time
       @global_alert_time || Time.zone.now
@@ -14,17 +15,19 @@ module GlobalAlerts
       @global_alert_time = time
     end
 
-    def self.all
-      return to_enum(:all) unless block_given?
-
-      body = cache.fetch(CACHE_KEY) do
-        HTTP.follow.get(GlobalAlerts::Engine.config.url).body.to_s
+    def self.data(url: GlobalAlerts::Engine.config.url)
+      body = cache.fetch([CACHE_KEY, url.hash].join('-')) do
+        HTTP.follow.get(url).body.to_s
       end
 
-      data = YAML.safe_load(body)
+      YAML.safe_load(body)
+    end
 
-      data.dig('alerts')&.each do |yaml|
-        yield new(yaml)
+    def self.all(**kwargs)
+      return to_enum(:all) unless block_given?
+
+      data(**kwargs).dig('alerts')&.each do |yaml|
+        yield new(**yaml.slice(*ATTRIBUTES), other_attributes: yaml.except(*ATTRIBUTES))
       end
     rescue => e
       Rails.logger.warn(e)
@@ -49,7 +52,8 @@ module GlobalAlerts
       GlobalAlerts::Engine.config.cache || Rails.cache
     end
 
-    attr_accessor :id, :dismiss, :html, :from, :to, :application_name
+    attr_accessor(*ATTRIBUTES)
+    attr_accessor :other_attributes
 
     delegate :present?, to: :html
 
