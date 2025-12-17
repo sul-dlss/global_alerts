@@ -7,7 +7,7 @@ alerts:
       <strong>A system upgrade will occur on Saturday, December 20, 2025.</strong> During the upgrade, availability information may not be up-to-date,
       requests cannot be submitted, and My Library Account will not be available.<br /><br />
 
-      Stanford Libraries will be operating on <a href="https://library-hours.stanford.edu/">reduced hours</a> from Saturday, December 13, 2025 through
+      Stanford University Libraries will be operating on <a href="https://library-hours.stanford.edu/">reduced hours</a> from Saturday, December 13, 2025 through
       Sunday, January 4, 2026. For more information about services during this period, please visit
       the <a href="https://library.stanford.edu/news/intersession-and-winter-closure-hours">Libraries Intersession and Winter Closure page</a>.
   - from: '2025-12-19T15:00:00-08:00'
@@ -17,34 +17,34 @@ alerts:
       <strong>A system upgrade will occur on Saturday, December 20, 2025.</strong> During the upgrade, My Library Account will not be available.
       SearchWorks will be available, but availability information may not be up-to-date. Requests cannot be submitted during the upgrade.<br /><br />
 
-      Stanford Libraries will be operating on <a href="https://library-hours.stanford.edu/">reduced hours</a> from Saturday, December 13, 2025 through
+      Stanford University Libraries will be operating on <a href="https://library-hours.stanford.edu/">reduced hours</a> from Saturday, December 13, 2025 through
       Sunday, January 4, 2026. For more information about services during this period, please visit
       the <a href="https://library.stanford.edu/news/intersession-and-winter-closure-hours">Libraries Intersession and Winter Closure page</a>.
   - from: '2025-12-13T00:00:00-08:00'
     to: '2026-01-05T00:00:00-08:00'
     application_name: sul_bento_app
     html: >
-      Stanford Libraries will be operating on <a href="https://library-hours.stanford.edu/">reduced hours</a> from Saturday, December 13, 2025 through
+      Stanford University Libraries will be operating on <a href="https://library-hours.stanford.edu/">reduced hours</a> from Saturday, December 13, 2025 through
       Sunday, January 4, 2026. For more information about services during this period, please visit
       the <a href="https://library.stanford.edu/news/intersession-and-winter-closure-hours">Libraries Intersession and Winter Closure page</a>.
   - from: '2025-12-13T00:00:00-08:00'
     to: '2026-01-05T00:00:00-08:00'
     application_name: SearchWorks
     html: >
-      Stanford Libraries will be operating on <a href="https://library-hours.stanford.edu/">reduced hours</a> from Saturday, December 13, 2025 through
+      Stanford University Libraries will be operating on <a href="https://library-hours.stanford.edu/">reduced hours</a> from Saturday, December 13, 2025 through
       Sunday, January 4, 2026. For more information about services during this period, please visit
       the <a href="https://library.stanford.edu/news/intersession-and-winter-closure-hours">Libraries Intersession and Winter Closure page</a>.
   - from: '2025-12-13T00:00:00-08:00'
     to: '2026-01-05T00:00:00-08:00'
     application_name: MyLibrary
     html: >
-      Stanford Libraries will be operating on <a href="https://library-hours.stanford.edu/">reduced hours</a> from Saturday, December 13, 2025 through
+      Stanford University Libraries will be operating on <a href="https://library-hours.stanford.edu/">reduced hours</a> from Saturday, December 13, 2025 through
       Sunday, January 4, 2026. For more information about services during this period, please visit
       the <a href="https://library.stanford.edu/news/intersession-and-winter-closure-hours">Libraries Intersession and Winter Closure page</a>.
   - from: '2025-12-13T00:00:00-08:00'
     to: '2026-01-05T00:00:00-08:00'
     application_name: library_hours
     html: >
-      Stanford Libraries will be operating on reduced hours from Saturday, December 13, 2025 through
+      Stanford University Libraries will be operating on reduced hours from Saturday, December 13, 2025 through
       Sunday, January 4, 2026. For more information about services during this period, please visit
       the <a href="https://library.stanford.edu/news/intersession-and-winter-closure-hours">Libraries Intersession and Winter Closure page</a>.
