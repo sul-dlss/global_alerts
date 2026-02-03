@@ -15,3 +15,7 @@ gemspec
 # gem 'byebug', group: [:development, :test]
 
 gem 'rails', ENV['RAILS_VERSION'] if ENV['RAILS_VERSION']
+
+if ENV['RAILS_VERSION']&.start_with?('7')
+  gem 'minitest', '< 6'
+end

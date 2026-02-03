@@ -19,5 +19,4 @@ Gem::Specification.new do |spec|
   spec.add_dependency "http"
 
   spec.add_development_dependency "sqlite3"
-  spec.add_development_dependency "combustion"
 end

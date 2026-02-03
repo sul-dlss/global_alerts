@@ -16,36 +16,38 @@ module GlobalAlerts
     end
 
     def self.data(url: GlobalAlerts::Engine.config.url)
-      body = cache.fetch([CACHE_KEY, url.hash].join('-')) do
-        HTTP.follow.get(url).body.to_s
+      if url.to_s.starts_with?('http')
+        body = cache.fetch([CACHE_KEY, url.hash].join('-')) do
+          HTTP.follow.get(url).body.to_s
+        end
+      else
+        body = File.read(url)
       end
 
       YAML.safe_load(body)
     end
 
     def self.all(**kwargs)
-      return to_enum(:all) unless block_given?
+      return to_enum(:all, **kwargs) unless block_given?
 
       data(**kwargs).dig('alerts')&.each do |yaml|
         yield new(**yaml.slice(*ATTRIBUTES), other_attributes: yaml.except(*ATTRIBUTES))
       end
     rescue => e
       Rails.logger.warn(e)
-      raise(e) if Rails.env.development?
+      raise(e) # if Rails.env.development?
 
       []
     end
 
-    def self.active(time = GlobalAlerts::Alert.global_alert_time)
-      active_alert = all.find do |alert|
-        alert.active?(time: time, for_application: GlobalAlerts::Engine.config.application_name)
+    def self.active(time = GlobalAlerts::Alert.global_alert_time, application = GlobalAlerts::Engine.config.application_name, **kwargs)
+      active_alerts = all(**kwargs).select do |alert|
+        alert.active?(time: time) && (alert.for_application?(nil) || alert.for_application?(application))
       end
 
-      active_alert ||= all.find do |alert|
-        alert.active?(time: time)
-      end
-
-      active_alert
+      # Prefer an alert that matches the application
+      active_alerts.find { |alert| alert.for_application?(application) } ||
+        active_alerts.first
     end
 
     def self.cache
@@ -57,12 +59,18 @@ module GlobalAlerts
 
     delegate :present?, to: :html
 
-    def active?(time: Time.zone.now, for_application: nil)
-      return false if for_application != application_name
-
+    def cover?(time)
       return true if from.nil? && to.nil?
 
       range.cover?(time)
+    end
+
+    def for_application?(for_application)
+      application_name == for_application
+    end
+
+    def active?(time: Time.zone.now, for_application: nil)
+      for_application?(for_application) && cover?(time)
     end
 
     def range
