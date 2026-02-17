@@ -1,5 +1,12 @@
 ---
 alerts:
+  - from: '2026-02-17T00:00:00-08:00'
+    to: '2026-02-18T00:00:00-08:00'
+    html: >
+      <strong>Power outage across campus</strong><br/><br/> Stanford University is currently experiencing a campus-wide
+      power outage affecting all Stanford University Libraries locations. Library buildings are currently closed.
+      Online services remain available. All services will resume when power is restored.<br/><br />
+      Check <a href="https://emergency.stanford.edu/">Stanford alerts</a> for updates.
   - from: '2025-12-19T15:00:00-08:00'
     to: '2025-12-21T17:00:00-08:00'
     application_name: SearchWorks
