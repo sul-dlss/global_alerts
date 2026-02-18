@@ -11,14 +11,16 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        ruby: ["3.2", "3.3"]
-        rails_version: ["7.1.5 ", "7.2.2", "8.0.0"]
+        ruby: ["3.4", "4.0"]
+        rails_version: ["7.2.3", "8.1.2"]
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: ${{ matrix.ruby }}
+      - name: Fix gem directory permissions
+        run: sudo chmod +t $(ruby -e 'puts Gem.default_dir')/gems
       - name: Install dependencies
         run: bundle install
         env:
