@@ -1,5 +1,28 @@
 ---
 alerts:
+  - from: '2026-03-20T09:00:00-08:00'
+    to: '2026-03-22T12:00:00-08:00'
+    application_name: SearchWorks
+    html: >
+       Stanford Libraries will be undergoing a system upgrade beginning Saturday, March 21 at 8am through Sunday, March 22.<br /><br />
+       During the upgrade, libraries will be open <a href="https://library-hours.stanford.edu/">regular hours</a> and eligible materials can be checked out.
+       Item status and availability information may not be up to date. Requests cannot be submitted and My Library Account will not be available during the upgrade.
+  - from: '2026-03-20T09:00:00-08:00'
+    to: '2026-03-22T12:00:00-08:00'
+    application_name: MyLibrary
+    html: >
+       A system upgrade will occur beginning Saturday, March 21 at 8am through Sunday, March 22. My Library Account will not be available during this period.<br /><br />
+       Libraries will be open <a href="https://library-hours.stanford.edu/">regular hours</a> and eligible materials can be checked out.
+       <a href="https://searchworks.stanford.edu/">SearchWorks</a> will be available, but item status and availability information may not be up to date.
+       Requests cannot be submitted during the upgrade.
+  - from: '2026-03-20T09:00:00-08:00'
+    to: '2026-03-22T12:00:00-08:00'
+    application_name: sul_bento_app
+    html: >
+       Stanford Libraries will be undergoing a system upgrade beginning Saturday, March 21 at 8am through Sunday, March 22.<br /><br />
+       During the upgrade, libraries will be open <a href="https://library-hours.stanford.edu/">regular hours</a> and eligible materials can be checked out.
+       The <a href="https://searchworks.stanford.edu/">SearchWorks Catalog and Articles+</a> will be available, but requests cannot be submitted.
+       My Library Account will not be available during the upgrade.
   - from: '2025-12-19T15:00:00-08:00'
     to: '2025-12-21T17:00:00-08:00'
     application_name: SearchWorks
