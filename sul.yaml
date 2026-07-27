@@ -71,9 +71,3 @@ alerts:
       Stanford University Libraries will be operating on reduced hours from Saturday, December 13, 2025 through
       Sunday, January 4, 2026. For more information about services during this period, please visit
       the <a href="https://library.stanford.edu/news/intersession-and-winter-closure-hours">Libraries Intersession and Winter Closure page</a>.
-  - from: '2025-05-06T00:00:00-08:00'
-    application_name: EarthWorks
-    html: >
-      We are currently in the process of upgrading our Spatial Data Infrastructure.
-      During this work, Previews, Code Snippets and Derivative Downloads may not work properly.
-      "Zipped object" download of original datasets should remain available.
