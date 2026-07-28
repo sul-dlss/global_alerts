@@ -13,4 +13,16 @@ class GlobalAlerts::Alert::Test < ActiveSupport::TestCase
 
     GlobalAlerts::Alert.global_alert_time = nil
   end
+
+  test '.all' do
+    alerts = GlobalAlerts::Alert.all(url: GlobalAlerts::Engine.root.join('test', 'data', 'global_alerts.yml'))
+
+    assert_equal 4, alerts.count
+  end
+
+  test '.active' do
+    alert = GlobalAlerts::Alert.active(url: GlobalAlerts::Engine.root.join('test', 'data', 'global_alerts.yml'))
+
+    assert_nil alert
+  end
 end
